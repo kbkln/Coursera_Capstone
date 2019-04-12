@@ -12,7 +12,7 @@ To collect data for my research I used the following sources:
 3) Based on Foursquare API results I created a dataset showing top 10 venue categories for each district. With the elbow method I identified the right number of clusters and then using a simple unsupervised machine learning algorithm K-mean all districts were divided in 7 clusters.
 ### Results
 1) I created a map to visualize clustered districts. According to the clustering results the city center is in the same cluster with more or less similar selection of venues and there are 6 small clusters of 1-2 districts with "abnormal" selection of venues;
-2) To add even more clarity to my search I created a choropleth map showing a total number of venues and a name for each district. It's visible that the number of venues decrease as we move away from the city center. 
+2) To add even more clarity to my search I created a choropleth map showing a total number of venues and a name for each district. It's visible that the number of venues decrease as we move away from the city center.
 ### Discussion
 Even taking into consideration that my analysis was limited by Foursquare API capacity, center point coordinates usage and only one method to determine the optimal number of clusters for k-means clustering the results I got are still very useful both for personal and for business purposes. It is possible to expand original search or combine it with other factors (e.g. rent prices).
 ### Conslusion
